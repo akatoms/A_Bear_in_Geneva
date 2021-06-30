@@ -1,0 +1,13 @@
+{
+  "id" : "https://akatoms.github.io/A_Bear_in_Geneva/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in akatoms/A_Bear_in_Geneva project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://akatoms.github.io/A_Bear_in_Geneva/manifests/bear_in_geneva.json",
+    "label" : "A Bear in Geneva"
+  } ]
+}
