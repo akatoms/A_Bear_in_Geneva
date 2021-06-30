@@ -1,0 +1,63 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://akatoms.github.io/A_Bear_in_Geneva/manifests/bear_in_geneva.json",
+  "@type" : "sc:Manifest",
+  "label" : "A Bear in Geneva",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is the title page of a pamphlet about the conflict between Genevea and Savoy.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://55e3054c-f5ed-46d2-9e85-0847c5cb9131",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://81c40d86-0217-45c1-9c4f-2d669a1c865f",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
+      "related" : ""
+    }, {
+      "height" : 1784,
+      "width" : 1122,
+      "images" : [ {
+        "resource" : {
+          "service" : {
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-rara.ch/bes_1/i3f/v20/2047959"
+          },
+          "format" : "image/jpeg",
+          "height" : 1590,
+          "width" : 1000,
+          "@id" : "https://www.e-rara.ch/bes_1/download/webcache/1000/2047959",
+          "@type" : "dctypes:Image"
+        },
+        "on" : "https://www.e-rara.ch/bes_1/i3f/v20/2047957/canvas/2047959",
+        "motivation" : "sc:painting",
+        "@id" : "https://www.e-rara.ch/bes_1/i3f/v20/2047957/annotation/2047959",
+        "@type" : "oa:Annotation"
+      } ],
+      "label" : "[1]",
+      "@id" : "https://www.e-rara.ch/bes_1/i3f/v20/2047957/canvas/2047959",
+      "@type" : "sc:Canvas",
+      "related" : {
+        "@id" : "https://www.e-rara.ch/bes_1/i3f/v20/2047957/manifest",
+        "label" : "Ein hüpsch new Lied, und ware Gschicht, wie frei der Bär den Krieg hat gricht, der zwischen Genff und Saffoy was, ir Bischoff hat gebritlet das [...]",
+        "format" : ""
+      }
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "https://www.e-rara.ch/bes_1/i3f/v20/2047957/canvas/2047959"
+  }
+}
